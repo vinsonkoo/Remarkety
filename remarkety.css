@@ -33,15 +33,73 @@
     p.cta-play-btn a img {
         width: 100px !important;
     }
+    .container.main-content .home-main-row hr {
+        display: none;
+    }
+    .home-how-it-works-container {
+        text-align: center;
+        margin: 20px 0;
+    }
+    .contact-us-form textarea {
+        height: 190px;
+    }
 }
 
-@media only screen and (max-width: 690px) {
+@media only screen and (max-width: 689px) {
     .container.main-content .home-main-row .col.span_12 {
         margin-top: -280px;
     }
     body.home .clients.no-carousel > div {
         width: 19.2%!important;
-        margin-right: 1%!important;
+    }
+    p.cta-play-btn a img {
+        width: 70px !important;
+    }
+    .try-demo,
+    .blue-btn {
+        padding: 6px 12px !important;
+        font-size: 12px !important;
+        width: 110px !important;
+    }
+    .container.main-content .home-main-row h1 span {
+        font-size: 20px
+    }
+
+}
+
+@media only screen and (max-width: 689px) and (min-width: 481px) {
+    .one-fourths.span_3, .one-fourths.vc_span3 {
+        width: 48%!important;
+        padding: 15px;
+    }
+    .contact-us-form .half {
+        width: 48%;
+        padding-right: 2%;
+        float: left;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .container.main-content .home-main-row .col.span_12 {
+        margin-top: -230px;
+    }
+    .container.main-content .home-main-row h1 span {
+        font-size: 16px !important;
+    }
+    p.cta-play-btn {
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    p.cta-play-btn a img {
+        width: 50px !important;
+    }
+    .home-main-row .cta-play-btn {
+        padding-bottom: 0;
+    }
+    .container.main-content .home-main-row h2 {
+        font-size: 14px !important;
     }
 }
 
@@ -173,10 +231,6 @@ header#top nav > ul > li > a {
     text-transform: uppercase;
 }
 
-.testimonial-container p {
-    font-size: 18px !important;
-}
-
 .home-how-it-works-btn {
     border: 2px solid #03a3de;
     padding: 12px 24px;
@@ -235,4 +289,84 @@ input[type=submit] {
 .testimonial_slider blockquote span,
 blockquote {
     text-align: left;
+}
+
+.one-third {
+	width: 33%;
+}
+
+.two-thirds {
+	width: 66%;
+}
+
+.half {
+	width: 50%;
+}
+
+.one-whole {
+	width: 100%;
+}
+
+.one-third, .half, .two-thirds, {
+	float: left;
+}
+
+.one-whole ul li {
+	display: inline;
+	font-size: 16px
+}
+
+.one-whole ul li:before {
+	content: " \00a0 \00a0 \00b7 ";
+	font-weight: bolder;
+}
+
+.pricing-try-free {
+	border: 1px solid #fff;
+	background: #abacae;
+	padding: 12px;
+}
+
+.trial h2, .trial h4, .trial p, .trial ul li {
+	color: #fff;
+}
+
+.pricing-table .pricing-column:last-child span.dollar-sign {
+	display: none;
+}
+
+.testimonial_slider blockquote p {
+    font-size: 18px;
+}
+
+.testimonial_slider blockquote p,
+.testimonial_slider blockquote span,
+blockquote {
+	color: #000;
+	text-align: left;
+	float: left;
+}
+
+hr.red-hr {
+	border: 0;
+	background: #ef0808;
+	height: 2px;
+	margin: 20px 0;
+}
+
+.pricing-column-content p {
+	font-size: 16px;
+}
+
+
+.pricing-column.no-highlight .pricing-column-content {
+	height: 384px;
+}
+
+.about-us-content p {
+    color: #2f2e2e;
+}
+
+.about-us-content h2 {
+    color: #ef0808;
 }
