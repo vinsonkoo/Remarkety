@@ -1,0 +1,238 @@
+@media only screen and (min-width: 1001px) {
+    body #page-header-bg .span_6 span.subheader,
+    body .row .col.section-title > span {
+        padding: 20px;
+    }
+    .container.main-content .home-main-row .col.span_12 {
+        margin-top: -480px;
+    }
+    .home-how-it-works-btn {
+        float: right;
+    }
+    .home-contact-form .wpb_wrapper{
+        margin-left: 10px !important;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .hidden-mobile {
+        display: none !important;
+    }
+    .mobile-padding {
+        padding: 0 20px;
+    }
+    .container.main-content .home-main-row .col.span_12 {
+        margin-top: -350px;
+    }
+    .container.main-content .home-main-row h1 span {
+        font-size: 26px !important;
+    }
+    .container.main-content .home-main-row h2 {
+        font-size: 18px;
+    }
+    p.cta-play-btn a img {
+        width: 100px !important;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .container.main-content .home-main-row .col.span_12 {
+        margin-top: -280px;
+    }
+    body.home .clients.no-carousel > div {
+        width: 19.2%!important;
+        margin-right: 1%!important;
+    }
+}
+
+p {
+    font-size: 18px;
+}
+.sf-menu li a {
+    line-height: 43px !important;
+}
+
+.container.main-content {
+    background: #fff;
+}
+
+#header-outer {
+    padding-top: 0 !important;
+}
+
+#header-space {
+    height: 0 !important;
+}
+
+.has-bg#page-header-bg h1 {
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+body #page-header-bg .span_6 span.subheader, body .row .col.section-title > span {
+    text-align: center;
+    display: block;
+    padding: 20px;
+}
+
+#footer-outer #footer-widgets .col ul li,
+#footer-outer .widget.widget_categories li a, #footer-outer .widget.widget_pages li a, #footer-outer .widget.widget_nav_menu li a{
+    border: none !important;
+}
+
+.widget_text h4,
+.widget_pages h4,
+.widget_nav_menu h4 {
+    border-bottom: 2px solid #03a3de;
+    width: 75%;
+}
+.textwidget p {
+    font-size: 14px;
+}
+
+#menu-item-1821 {
+    background: #ed4040;
+}
+
+#menu-item-1821 a {
+    color: #fff !important;
+}
+
+header#top nav > ul > li > a {
+    line-height: 21px !important;
+    padding-bottom: 20px !important;
+}
+
+#page-header-bg {
+    margin-top: -100px;
+}
+
+#call-to-action .container {
+  padding: 21px 0px 18px 0px!important;
+}
+
+#footer-outer .widget.widget_categories li a,
+#footer-outer .widget.widget_pages li a,
+#footer-outer .widget.widget_nav_menu li a {
+    padding: 2px 0;
+}
+
+#footer-outer #copyright p {
+    font-size: 14px;
+}
+
+.white-bg {
+    background: #fff;
+}
+
+.container.main-content .home-main-row .row-bg-wrap {
+    display: none;
+}
+
+.home-main-row .cta-play-btn {
+    text-align: center;
+}
+
+.home-main-row .cta-play-btn a {
+    display: inline-block;
+}
+
+.home-main-row h1,
+.home-main-row h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.half {
+    width: 50%;
+    float: left;
+}
+
+.try-demo {
+    background: #fff;
+}
+
+.blue-btn {
+    background: #03a3de;
+    color: #fff;
+}
+
+.try-demo,
+.blue-btn {
+    padding: 12px 24px;
+    font-size: 18px;
+    text-align: center;
+    width: 180px;
+}
+
+.red-btn {
+    background: #ed4040;
+    padding: 16px 48px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.testimonial-container p {
+    font-size: 18px !important;
+}
+
+.home-how-it-works-btn {
+    border: 2px solid #03a3de;
+    padding: 12px 24px;
+    color: #000;
+}
+
+form.wpcf7-form p {
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+span.your-name input,
+span.your-email input,
+span.your-company input,
+span.your-ecommerce-platform input,
+span.your-number input, {
+    background: #abacae;
+}
+
+input[type=text],
+textarea,
+input[type=email],
+input[type=password],
+input[type=tel],
+input[type=url],
+input[type=search],
+input[type=date] {
+    background: #abacae;
+    height: 60px;
+}
+
+input[type=submit] {
+    background: #03a3de;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    #fff;
+}
+
+.testimonial_slider blockquote,
+.testimonial_slider blockquote span,
+blockquote {
+    text-align: left;
+}
